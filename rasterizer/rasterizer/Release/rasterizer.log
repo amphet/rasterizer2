@@ -1,0 +1,40 @@
+﻿빌드 시작: 2014-06-20 오후 12:41:45
+     1>2 노드의 "C:\Users\Administrator\Documents\Visual Studio 2013\Projects\rasterizer\rasterizer\rasterizer.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt program.cpp
+         program.cpp
+     1>c:\users\administrator\documents\visual studio 2013\projects\rasterizer\rasterizer\obj_parser.h(19): warning C4091: 'typedef ' : 변수를 선언하지 않으면 'obj_face' 왼쪽은 무시됩니다.
+     1>c:\users\administrator\documents\visual studio 2013\projects\rasterizer\rasterizer\obj_parser.h(28): warning C4091: 'typedef ' : 변수를 선언하지 않으면 'obj_sphere' 왼쪽은 무시됩니다.
+     1>c:\users\administrator\documents\visual studio 2013\projects\rasterizer\rasterizer\obj_parser.h(37): warning C4091: 'typedef ' : 변수를 선언하지 않으면 'obj_plane' 왼쪽은 무시됩니다.
+     1>c:\users\administrator\documents\visual studio 2013\projects\rasterizer\rasterizer\obj_parser.h(42): warning C4091: 'typedef ' : 변수를 선언하지 않으면 'obj_vector' 왼쪽은 무시됩니다.
+     1>c:\users\administrator\documents\visual studio 2013\projects\rasterizer\rasterizer\obj_parser.h(57): warning C4091: 'typedef ' : 변수를 선언하지 않으면 'obj_material' 왼쪽은 무시됩니다.
+     1>c:\users\administrator\documents\visual studio 2013\projects\rasterizer\rasterizer\obj_parser.h(64): warning C4091: 'typedef ' : 변수를 선언하지 않으면 'obj_camera' 왼쪽은 무시됩니다.
+     1>c:\users\administrator\documents\visual studio 2013\projects\rasterizer\rasterizer\obj_parser.h(70): warning C4091: 'typedef ' : 변수를 선언하지 않으면 'obj_light_point' 왼쪽은 무시됩니다.
+     1>c:\users\administrator\documents\visual studio 2013\projects\rasterizer\rasterizer\obj_parser.h(77): warning C4091: 'typedef ' : 변수를 선언하지 않으면 'obj_light_disc' 왼쪽은 무시됩니다.
+     1>c:\users\administrator\documents\visual studio 2013\projects\rasterizer\rasterizer\obj_parser.h(83): warning C4091: 'typedef ' : 변수를 선언하지 않으면 'obj_light_quad' 왼쪽은 무시됩니다.
+     1>c:\users\administrator\documents\visual studio 2013\projects\rasterizer\rasterizer\obj_parser.h(106): warning C4091: 'typedef ' : 변수를 선언하지 않으면 'obj_growable_scene_data' 왼쪽은 무시됩니다.
+     1>c:\users\administrator\documents\visual studio 2013\projects\rasterizer\rasterizer\obj_parser.h(139): warning C4091: 'typedef ' : 변수를 선언하지 않으면 'obj_scene_data' 왼쪽은 무시됩니다.
+     1>program.cpp(158): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(254) : 'gets' 선언을 참조하십시오.
+     1>program.cpp(508): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(283) : 'scanf' 선언을 참조하십시오.
+     1>program.cpp(422): warning C4101: 'col' :참조되지 않은 지역 변수입니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Documents\Visual Studio 2013\Projects\rasterizer\rasterizer\rasterizer.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Documents\Visual Studio 2013\Projects\rasterizer\rasterizer\rasterizer.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Documents\Visual Studio 2013\Projects\rasterizer\rasterizer\rasterizer.lib" /MACHINE:X86 /SAFESEH Release\Global.obj
+         Release\list.obj
+         Release\MultiThreadManager.obj
+         Release\objLoader.obj
+         Release\obj_parser.obj
+         Release\PixelShader.obj
+         Release\program.obj
+         Release\Rasterizer.obj
+         Release\string_extra.obj
+         Release\Tessellator.obj
+         Release\TransformThread.obj
+         Release\Vertex.obj
+         rasterizer.vcxproj -> C:\Users\Administrator\Documents\Visual Studio 2013\Projects\rasterizer\rasterizer\rasterizer.exe
+     1>"C:\Users\Administrator\Documents\Visual Studio 2013\Projects\rasterizer\rasterizer\rasterizer.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.65
